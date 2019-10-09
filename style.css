@@ -46,7 +46,6 @@ body {
     border-bottom: none;
 }
 
-.section-news .nav-tabs li.active,
 .section-news .nav-tabs li:hover
  {
     background-color: #fff;
@@ -127,6 +126,12 @@ li:hover {
     font-weight: 400;
 }
 
+.active {
+    background-color: #fff;
+    color: #0b57a2;
+    border-bottom: #fff;
+}
+
 .section-news .article .title p {
     font-size: 15px;
     color: #0b57a2;
@@ -184,14 +189,6 @@ li.active {
 }
 
 .section-news .nav-tabs li:hover {
-    background-color: #fff;
-}
-
-.section-news .nav-tabs li.active {
-    border-bottom: #fff;
-}
-
-.section-news .nav-tabs li.active {
     background-color: #fff;
 }
 
