@@ -96,17 +96,19 @@ body {
     border: 1px solid #ebebeb;
     background: #f2f6f8;
   }
-  
-  .section-news .nav-tabs>li.active>a:focus, 
-  .section-news .nav-tabs>li.active>a:hover {
-    border-bottom-color: transparent;
-  }
 
   .section-news .nav-tabs>li.active>a:focus, 
   .section-news .nav-tabs>li.active>a:hover {
+    border-bottom-color: transparent;
     background-color: #fff;
     cursor: default;
 }
+
+.section-news .nav-tabs li.show {
+    border-bottom-color: #fff;
+}
+
+.nav-tabs>li>a {border: 1px solid transparent;}
   
   .section-news .nav-tabs li:hover {
     background-color: #fff;

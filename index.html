@@ -22,15 +22,15 @@
         </div>
         <div class="row">
           <div class="col-md-6 col-xs-12">
-            <ul class="nav nav-tabs" id="myTab">
-              <li class="active" role="presentation">
-                <a data-toggle="tab" onclick="documentTrack('#events');" aria-controls="events" aria-selected="true" href="#events">Events</a>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item active" role="presentation">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" role="tab" aria-controls="events" aria-selected="true" href="#events">Events</a>
               </li>
-              <li role="presentation" class="">
-                <a data-toggle="tab" onclick="documentTrack('#news');" aria-controls="news" aria-selected="true" href="#news">News</a>
+              <li role="presentation" class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" role="tab" aria-controls="news" aria-selected="true" href="#news">News</a>
               </li>
-              <li role="presentation" class="">
-                <a data-toggle="tab" onclick="documentTrack('#press');" aria-controls="press" aria-selected="true" href="#press" role="tab">Documents</a>
+              <li role="presentation" class="nav-item">
+                <a class="nav-link" id="press-tab" data-toggle="tab" role="tab" aria-controls="press" aria-selected="true" href="#press">Documents</a>
               </li>
             </ul>
           </div>
@@ -262,5 +262,4 @@
     $('.nav-tabs a:first').tab('show')
     </script>
   </body>
-
 </html>
