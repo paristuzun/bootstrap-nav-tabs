@@ -102,7 +102,6 @@ body {
     border-bottom-color: transparent;
   }
 
-  .section-news .nav-tabs>li.active>a,
   .section-news .nav-tabs>li.active>a:focus, 
   .section-news .nav-tabs>li.active>a:hover {
     background-color: #fff;
@@ -312,8 +311,6 @@ body {
     }
   }
   
-  /* Comment */
-  
   @media (max-width: 992px) {
     .section-news .nav-tabs li {
       width: 33%;
@@ -346,4 +343,3 @@ body {
       padding-left: 60px;
     }
   }
-  
