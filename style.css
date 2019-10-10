@@ -37,7 +37,7 @@ body {
   
   .section-news .article .title h3 .far {
     font-size: 1.2rem;
-    color: #0b57a2;
+    color: #3d5d6f;
   }
   
   .nav>li>a {
@@ -68,7 +68,7 @@ body {
   .section-news .article .title h3 a {
     font-size: 1.2rem;
     line-height: 30px;
-    color: #0b57a2;
+    color: #3d5d6f;
     font-weight: 400;
   }
   
@@ -84,7 +84,7 @@ body {
   .section-news .nav-tabs li.active a {
     border: 0;
     font-weight: 500;
-    color: #0b57a2;
+    color: #3d5d6f;
   }
   
   .nav > li {
@@ -101,7 +101,6 @@ body {
   .section-news .nav-tabs>li.active>a:hover {
     border-bottom-color: transparent;
     background-color: #fff;
-    cursor: default;
 }
 
 .section-news .nav-tabs li.show {
@@ -192,7 +191,7 @@ body {
   i::before {
     font-family: FontAwesome;
     font-style: normal;
-    content: "\f1c1";
+    content: "\f1ea";
     display: inline-block;
     padding-right: 3px;
     vertical-align: middle;
